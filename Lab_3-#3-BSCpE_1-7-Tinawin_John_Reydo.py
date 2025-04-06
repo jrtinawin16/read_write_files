@@ -9,5 +9,5 @@ with open ("gwa.txt", "r") as gwa_file:
             highest_gwa = student_gwa
             highest_name = student_name
 
-print("Student with Highest GWA: ", highest_name)
+print("Student with Highest GWA: " + (highest_name))
 print("GWA: ", highest_gwa)
